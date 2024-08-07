@@ -22,13 +22,13 @@ Before running the pipeline and the DAG, ensure you have the following prerequis
 ## Apache Beam Pipeline Script
 
 ### Default Values
-Project: techlanders-internal
-Temporary Location: gs://sandeep-apache/temp
-Input File: gs://sandeep-apache/input.csv
-Output Table: techlanders-internal.dataset_demo.output-sql
-Region: us-central1
-Zone: us-central1-c
-Runner: DataflowRunner
+- Project: techlanders-internal
+- Temporary Location: gs://sandeep-apache/temp
+- Input File: gs://sandeep-apache/input.csv
+- Output Table: techlanders-internal.dataset_demo.output-sql
+- Region: us-central1
+- Zone: us-central1-c
+- Runner: DataflowRunner
 
 #### DataFlow Script
 ```sh
