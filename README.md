@@ -30,7 +30,7 @@ Region: us-central1
 Zone: us-central1-c
 Runner: DataflowRunner
 
-#### DataFlowScript
+#### DataFlow Script
 ```sh
 import argparse
 import logging
