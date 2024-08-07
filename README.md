@@ -8,9 +8,7 @@ This repository contains an Apache Beam pipeline script designed to process CSV 
   - [Default Values](#default-values)
   - [DataFlow Script](#DataFlow-Script)
 - [Airflow DAG Script](#Airflow-DAG-Script)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- []
 
 ## Prerequisites
 
@@ -19,7 +17,9 @@ Before running the pipeline and the DAG, ensure you have the following prerequis
 - Google Cloud Storage bucket with input data. for example sandeep-apache is the bucket and input.csv is the file
 - BigQuery dataset and table to write the results. Dataset: dataset_demo, Table: output, Schema: "products:STRING", "total_sales:INTEGER"
 
-## Apache Beam Pipeline Script
+## Apache Beam Pipeline Script 
+
+Place the below code in a bucket (for example: sandeep-apache)
 
 ### Default Values
 - Project: techlanders-internal
@@ -103,6 +103,8 @@ if __name__ == '__main__':
 ```
 
 ## Airflow DAG Script
+
+Place the below code in a DAG bucket
 
 ```sh
 # Import statement
