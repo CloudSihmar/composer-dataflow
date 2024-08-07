@@ -8,7 +8,6 @@ This repository contains an Apache Beam pipeline script designed to process CSV 
   - [Default Values](#default-values)
   - [DataFlow Script](#DataFlow-Script)
 - [Airflow DAG Script](#Airflow-DAG-Script)
-- []
 
 ## Prerequisites
 
